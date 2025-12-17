@@ -235,33 +235,14 @@ npm run build:cli
 # Executar CLI
 npm run cli
 
+# Compilar server
+npm run build
+
 # Executar API
 npm run server
 ```
 
 ---
-
-## ✅ Estado do projeto
-
-* ✔ CRUD completo
-* ✔ API REST funcional
-* ✔ CLI funcional
-* ✔ Filtros dinâmicos
-* ✔ Validação com Zod
-* ✔ Tipagem forte (TypeScript)
-
----
-
-## 📌 Observações finais
-
-Este projeto foi desenvolvido com foco em:
-
-* organização de código
-* boas práticas de TypeScript
-* separação de responsabilidades
-* compatibilidade com Node.js moderno (ESM)
-
-Ideal para **teste técnico**, **estudo** ou **base de projeto real**.
 
 ## 🧪 Exemplos de comandos (Windows CMD)
 
