@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "client",
+    "rootDir": "src",
+    "noEmitOnError": true
+  },
+  "include": ["src/cli/**/*.ts"],
+  "exclude": [
+    "src/routes",
+    "src/controllers",
+    "src/app.ts"
+  ]
+}

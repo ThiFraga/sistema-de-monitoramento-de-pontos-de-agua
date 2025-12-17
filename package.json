@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node dist/server.js",
-    "build:cli": "tsc -p tsconfig.json",
+    "build": "tsc",
+    "build:cli": "tsc -p tsconfig.cli.json",
+    "server": "node dist/app.js",
     "cli": "node client/cli/cli.js"
   },
   "keywords": [],
