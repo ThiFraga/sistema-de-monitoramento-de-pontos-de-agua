@@ -185,15 +185,16 @@ Exemplo de saída:
 ## 🧪 Fluxo recomendado
 
 ```bash
-# Compilar CLI
+# Instalar dependências
+npm install
+
+# Compilar o CLI
 npm run build:cli
 
-# Executar CLI
+# Executar o CLI
 npm run cli
 
-ou
-
-# Executar API
+# OU executar a API
 npm run server
 ```
 
